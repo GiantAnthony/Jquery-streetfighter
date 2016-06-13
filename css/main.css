@@ -2,11 +2,12 @@ body {
 	background-color: black;
 }
 
+
 /** Background **/
 
 .main {
   background-color: white;
-  margin-top: 110px;
+  margin-top: 100px;
   padding-left: 100px;
   min-width: 1200px;
   height: 500px;
@@ -16,12 +17,7 @@ body {
 
 /** RYU!!!! **/
 
-.ryu {
-    width: 659px;
-    height: 494px;
-}
-
-.ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool, .ryu{
   width: 659px;
   height: 494px;
 }
@@ -39,7 +35,11 @@ body {
   background-image: url('../images/ryu-throwing-hadouken.png');
 }
 
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-cool{
+  background-image: url('../images/ryu-cool.gif');
+}
+
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool{
   background-repeat: no-repeat;
 }
 
@@ -54,6 +54,7 @@ body {
     display: none;
     z-index: 10;
 }
+
 
 
 
